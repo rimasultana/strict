@@ -40,6 +40,7 @@ header {
 .strict-banner{
     background: url("../image/Strict\ \(11\).png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -69,5 +70,8 @@ header {
 }
 .strict-banner-bottom a{
     margin: 175px;
+    display: block;
+    color: #fff;
+    font-size: 25x;
 }
 
