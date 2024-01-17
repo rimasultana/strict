@@ -93,3 +93,33 @@ header {
     font-size: 20px;
     text-align: center;
 }
+/* -=-=-=-=-=-=-=-- Service section -=-=-=-=-=-=-=-=-=- */
+
+.strict-service{
+    padding: 85px 0;
+    background-color: #fff;
+}
+.strict-service-item{}
+.strict-service-icon{
+    width: 70px;
+    height: 70px;
+    color:#fff;
+    background:linear-gradient(90deg, #48baff 50% ,#5fc3ff 50%);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto 15px;
+}
+.strict-service-text {
+    text-align: center;
+    padding: 0 20px;
+}
+.strict-service-text h4{
+    font-size: 22px;
+    color: #2d3950;
+}
+.strict-service-text p{
+font-size: 15px;
+color: #999999;
+}
