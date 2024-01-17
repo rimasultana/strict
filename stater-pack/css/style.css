@@ -175,3 +175,30 @@ header {
 .strict-work-overly ul li a {
   color: #fff;
 }
+/* -=-=-=-=-=-=-=-- Contract section -=-=-=-=-=-=-=-=-=- */
+
+.strict-contract {
+    background: url("../image/Strict\ \(7\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.strict-contract-overly{
+    background-color: rgba(45, 57, 79, 0.9);
+    padding: 85px 0;
+
+}
+.strict-contract .strict-title h2{
+    color: #fff;
+}
+.strict-contract form input ,
+.strict-contract form textarea{
+    background-color: transparent;
+
+}
+.strict-form-bottom{
+    display: flex;
+    justify-content: space-between;
+}
