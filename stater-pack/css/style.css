@@ -201,4 +201,15 @@ header {
 .strict-form-bottom{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.strict-form-subscribe label{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 15px ;
+}
+.strict-form-submit input{
+    color: #fff;
+    border: 1px solid #5fc3ff;
+    padding: 5px 30px;
 }
