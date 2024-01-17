@@ -7,7 +7,6 @@ body {
 img {
   width: 100%;
   height: auto;
-  display: block;
 }
 ul {
   margin: 0;
@@ -44,4 +43,31 @@ header {
     background-size: cover;
     background-position: center;
     text-align: center;
+    padding: 205px 0 80px;
 }
+.strict-banner-top{
+    color: #fff;
+
+}
+.strict-banner-top h1{
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.strict-banner-top p{
+    font-size: 20px;
+    border-top: 2px solid #15a3f9;
+    display: inline-block;
+    padding: 35px 20px;
+}
+.strict-banner-button{}
+.strict-banner-bottom button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid  #15a3f9;
+    padding: 10px 35px;
+}
+.strict-banner-bottom a{
+    margin: 175px;
+}
+
