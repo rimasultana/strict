@@ -134,14 +134,13 @@ header {
 .strick-work {
   background-color: #f6f9f9;
   padding: 85px 0;
-
 }
 .strict-work-img {
   position: relative;
   margin-bottom: 25px;
 }
-.strict-work-img img{
-    width: 100%;
+.strict-work-img img {
+  width: 100%;
 }
 .strict-work-overly {
   background-color: rgba(21, 168, 250, 0.9);
@@ -157,9 +156,8 @@ header {
   transform: 0.4s;
 }
 .strict-work-overly:hover {
-   
-    opacity: 1;
-  }
+  opacity: 1;
+}
 .strict-work-overly ul {
   display: flex;
 }
@@ -178,38 +176,41 @@ header {
 /* -=-=-=-=-=-=-=-- Contract section -=-=-=-=-=-=-=-=-=- */
 
 .strict-contract {
-    background: url("../image/Strict\ \(7\).png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
+  background: url("../image/Strict\ \(7\).png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
 }
-.strict-contract-overly{
-    background-color: rgba(45, 57, 79, 0.9);
-    padding: 85px 0;
-
+.strict-contract-overly {
+  background-color: rgba(45, 57, 79, 0.9);
+  padding: 85px 0;
 }
-.strict-contract .strict-title h2{
-    color: #fff;
+.strict-contract .strict-title h2 {
+  color: #fff;
 }
-.strict-contract form input ,
-.strict-contract form textarea{
-    background-color: transparent;
-
+.strict-contract form input,
+.strict-contract form textarea {
+  background-color: transparent;
 }
-.strict-form-bottom{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.strict-form-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.strict-form-subscribe label{
-    margin-left: 10px;
-    color: #fff;
-    font-size: 15px ;
+.strict-form-subscribe label {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 15px;
 }
-.strict-form-submit input{
-    color: #fff;
-    border: 1px solid #5fc3ff;
-    padding: 5px 30px;
+.strict-form-submit input {
+  color: #fff;
+  border: 1px solid #5fc3ff;
+  padding: 5px 30px;
+}
+/* -=-=-=-=-=-=-=-- Footer section -=-=-=-=-=-=-=-=-=- */
+footer{
+    background-color: #f5f9f9;
+    padding: 20px 0;
 }
