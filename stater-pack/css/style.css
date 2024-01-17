@@ -5,7 +5,7 @@ body {
   background-color: #fff;
 }
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 ul {
@@ -134,9 +134,14 @@ header {
 .strick-work {
   background-color: #f6f9f9;
   padding: 85px 0;
+
 }
 .strict-work-img {
   position: relative;
+  margin-bottom: 25px;
+}
+.strict-work-img img{
+    width: 100%;
 }
 .strict-work-overly {
   background-color: rgba(21, 168, 250, 0.9);
