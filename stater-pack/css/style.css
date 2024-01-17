@@ -214,3 +214,25 @@ footer{
     background-color: #f5f9f9;
     padding: 20px 0;
 }
+.strict-copyright p{
+    margin-bottom: 0;
+    color: #999;
+
+}
+.strict-social{}
+.strict-social ul{
+    display:flex ;
+    justify-content: flex-end;
+}
+.strict-social li{
+    width: 35px;
+    height: 35px;
+    background-color: #15a3f9;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.strict-social a{
+    color: #fff;
+}
