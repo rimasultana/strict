@@ -4,31 +4,44 @@ body {
   font-family: "Lato", sans-serif;
   background-color: #fff;
 }
-img{
-    width: 100%;
-    height: auto;display: block;
+img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-ul{
-    margin: 0;
-    list-style: none;
+ul {
+  margin: 0;
+  list-style: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-header{
-    background-color: #f6f9f9;
-    padding: 30px 0;
-}
-.strict-manu{}
-.strict-manu ul{
-    display: flex;
-    justify-content: end;
-}
-.strict-manu ul li a{
-    display: block;
-    padding: 0 27px;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    color: #454444;
+/* -=-=-=-=-=-=-=-- header part -=-=-=-=-=-=-=-=-=- */
 
+header {
+  background-color: #f6f9f9;
+  padding: 30px 0;
+}
+.strict-manu {
+}
+.strict-manu ul {
+  display: flex;
+  justify-content: end;
+}
+.strict-manu ul li a {
+  display: block;
+  padding: 0 27px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: #454444;
+}
+
+/* -=-=-=-=-=-=-=-- banner part -=-=-=-=-=-=-=-=-=- */
+
+.strict-banner{
+    background: url("../image/Strict\ \(11\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
