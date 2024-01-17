@@ -83,6 +83,10 @@ header {
     text-align: center;
     margin-bottom: 30px;
 }
+.strick-title p{
+    font-size: 15px;
+    color: #090909;
+}
 .strict-title h2{
     color: #2d3950;
     font-size: 40px;
@@ -122,4 +126,10 @@ header {
 .strict-service-text p{
 font-size: 15px;
 color: #999999;
+}
+/* -=-=-=-=-=-=-=-- Work section -=-=-=-=-=-=-=-=-=- */
+
+.strick-work{
+    background-color:#f6f9f9 ;
+    padding: 85px 0;
 }
