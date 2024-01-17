@@ -75,61 +75,98 @@ header {
 
 /* -=-=-=-=-=-=-=-- about section -=-=-=-=-=-=-=-=-=- */
 
-.strict-about{
-    background-color: #f6f9f9;
-    padding: 85px 0;
+.strict-about {
+  background-color: #f6f9f9;
+  padding: 85px 0;
 }
-.strict-title{
-    text-align: center;
-    margin-bottom: 30px;
+.strict-title {
+  text-align: center;
+  margin-bottom: 30px;
 }
-.strick-title p{
-    font-size: 15px;
-    color: #090909;
+
+.strict-title h2 {
+  color: #2d3950;
+  font-size: 40px;
+  font-weight: bold;
 }
-.strict-title h2{
-    color: #2d3950;
-    font-size: 40px;
-    font-weight: bold;
+.strick-title p {
+  font-size: 15px;
+  color: #090909;
 }
-.strict-about-text{
-    color: #999999;
-    font-size: 20px;
-    text-align: center;
+.strict-about-text {
+  color: #999999;
+  font-size: 20px;
+  text-align: center;
 }
 /* -=-=-=-=-=-=-=-- Service section -=-=-=-=-=-=-=-=-=- */
 
-.strict-service{
-    padding: 85px 0;
-    background-color: #fff;
+.strict-service {
+  padding: 85px 0;
+  background-color: #fff;
 }
-.strict-service-item{}
-.strict-service-icon{
-    width: 70px;
-    height: 70px;
-    color:#fff;
-    background:linear-gradient(90deg, #48baff 50% ,#5fc3ff 50%);
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:0 auto 15px;
+.strict-service-item {
+}
+.strict-service-icon {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  background: linear-gradient(90deg, #48baff 50%, #5fc3ff 50%);
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
 }
 .strict-service-text {
-    text-align: center;
-    padding: 0 20px;
+  text-align: center;
+  padding: 0 20px;
 }
-.strict-service-text h4{
-    font-size: 22px;
-    color: #2d3950;
+.strict-service-text h4 {
+  font-size: 22px;
+  color: #2d3950;
 }
-.strict-service-text p{
-font-size: 15px;
-color: #999999;
+.strict-service-text p {
+  font-size: 15px;
+  color: #999999;
 }
 /* -=-=-=-=-=-=-=-- Work section -=-=-=-=-=-=-=-=-=- */
 
-.strick-work{
-    background-color:#f6f9f9 ;
-    padding: 85px 0;
+.strick-work {
+  background-color: #f6f9f9;
+  padding: 85px 0;
+}
+.strict-work-img {
+  position: relative;
+}
+.strict-work-overly {
+  background-color: rgba(21, 168, 250, 0.9);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: 0.4s;
+}
+.strict-work-overly:hover {
+   
+    opacity: 1;
+  }
+.strict-work-overly ul {
+  display: flex;
+}
+.strict-work-overly ul li {
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strict-work-overly ul li a {
+  color: #fff;
 }
